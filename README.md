@@ -17,7 +17,7 @@ $ docker run --name generate_btsync_seckey pyyoshi/btsync
 Starting btsync with secret: <btsync secret key>
 ```
 
-Copy <btsync secret key>
+Copy ``<btsync secret key>``
 
 ```bash
 $ docker kill generate_btsync_seckey
