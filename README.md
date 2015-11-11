@@ -45,10 +45,6 @@ ExecStop=/usr/bin/docker kill %p%i
 
 [Install]
 WantedBy=multi-user.target
-
-[X-Fleet]
-Conflicts=%p@*.service
-MachineMetadata=role=moin
 ```
 
 # thanks
