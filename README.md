@@ -27,7 +27,7 @@ $ docker run --name foo_vol pyyoshi/btsync <btsync secret key>
 
 # coreos sample service
 
-foo-data.service
+``foo-data@.service``
 
 ```txt
 [Unit]
